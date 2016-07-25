@@ -1,0 +1,22 @@
+{
+  "name": "bb8-movement",
+  "version": "1.0.0",
+  "description": "moving my bb8 around with code!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bb8",
+    "sphero",
+    "play",
+    "movement"
+  ],
+  "author": "Anders Fisher",
+  "license": "ISC",
+  "dependencies": {
+    "noble": "^1.2.1",
+    "sphero": "^0.5.0",
+    "xbox-controller": "^0.7.0"
+  }
+}
