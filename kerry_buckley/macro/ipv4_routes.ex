@@ -1,6 +1,6 @@
 defmodule CFOSS2.IPv4Routes do
   @address_type "ipv4"
-  @route_address_regex ~r|^ip route (\S*).*$|
+  @route_address_regex ~r/^ip route (\S*).*$/
   use CFOSS2.Routes
 
   def format_addition(address) do
